@@ -24,5 +24,14 @@ namespace TweedeProject
         {
             InitializeComponent();
         }
+
+        int iCount = 0;
+        private void btnCounter_Click(object sender, RoutedEventArgs e)
+        {
+            iCount++;
+            lblCounter.Content = iCount.ToString();
+        }
+
+
     }
 }
