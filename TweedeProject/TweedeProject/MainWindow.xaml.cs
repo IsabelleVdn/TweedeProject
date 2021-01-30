@@ -25,6 +25,15 @@ namespace TweedeProject
             InitializeComponent();
         }
 
+        int iCount = 0;
+        private void btnCounter_Click(object sender, RoutedEventArgs e)
+        {
+            iCount++;
+            lblCounter.Content = iCount.ToString();
+        }
+
+
+
         private void btnHelloWorld_Click(object sender, RoutedEventArgs e)
         {
             lblHelloWorld.Content = "Hello World";
